@@ -1,5 +1,5 @@
 body {
-    background: #14131A;
+
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,3 +58,48 @@ body {
     color: rgba(255, 255, 255, 0.8);
     margin-top: 40px;
 }
+
+.button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;    text-decoration: none;
+    cursor: pointer;
+}
+
+.button__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.button__primary {
+    color: #8D0019;
+    background-color: #fff;
+}
+
+.tickets__butt {
+    color: #fff;
+}
+
+.button__text, .button__img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button__group {
+    margin-top: 70px;
+    margin-bottom: 144px;
+}
+
+.venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood {
+    background: url('../img/blood.png') top right no-repeat,#14131A url(../img/bg.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
