@@ -20,6 +20,14 @@
       </a>
 
       <nav class="nav">
+        <button class="menu">
+          <span class="menu__text">меню</span>
+          <img src="img/menu.svg" alt="button: bm" class="menu__img">
+        </button>
+        <button class="menu__close">
+          <span class="menu__close__text">закрыть</span>
+          <img src="img/close butt.svg" alt="close: butt" class="menu__close__img">
+        </button>
         <ul class="nav__menu">
 
           <li class="nav__item"><a href="about.html" class="nav__menu__ref">о фильме</a></li>
@@ -40,10 +48,10 @@
       </div>
       <!-- /.hero__text -->
       <div class="button__group">
-        <button class="button__primary button">
+        <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="button__primary button">
           <img width="15px" src="img/play.svg" alt="button: play" class="button__img">
           <span class="button__text">смотреть трейлер</span>
-        </button>
+        </a>
 
         <a href="trailer.html" class="tickets__butt button">
           <img width="15px" src="img/ticket.svg" alt="ticket" class="button__img">
@@ -56,6 +64,11 @@
   </div>
   <!-- /.container -->
   <img src="img/venom.png" alt="char: venom" class="venom">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
